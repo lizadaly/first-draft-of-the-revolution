@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" unique-identifier="bookid">
+<!-- 
+Time-stamp: <2011-02-13-14:28:54-liza>
+-->
+  <metadata>
+    <dc:identifier id="bookid">urn:uuid:4c191974-c491-4ad0-aa53-62ec5fed9v143</dc:identifier>
+    <dc:title>First Draft of the Revolution</dc:title> 
+    <dc:rights>Copyright 2011 Threepress Consulting Inc.</dc:rights>
+    <dc:publisher>Threepress Consulting Inc.</dc:publisher>  
+    <dc:date >2011-04-12</dc:date>
+    <dc:description>An interactive epistolary story</dc:description>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Short, Emily">Emily Short</dc:creator>
+    <dc:contributor xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Daly, Liza">Liza Daly, inkle</dc:contributor>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="cover-image"/> 
+   </metadata>  
+  <manifest>
+    <item id="ncxtoc" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    <item id="index" href="content/index.html" media-type="application/xhtml+xml"/>
+    <item id="intropage" href="content/intropage.html" media-type="application/xhtml+xml"/>
+    <item id="intropage2" href="content/intropage2.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter1" href="content/chapter1.html" media-type="application/xhtml+xml"/>    
+    <item id="preface2" href="content/preface2.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter2" href="content/chapter2.html" media-type="application/xhtml+xml"/>   
+    <item id="preface3" href="content/preface3.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter3" href="content/chapter3.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter4" href="content/chapter4.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter5" href="content/chapter5.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter6" href="content/chapter6.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter7" href="content/chapter7.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter8" href="content/chapter8.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter9" href="content/chapter9.html" media-type="application/xhtml+xml"/> 
+    <item id="preface10" href="content/preface10.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter10" href="content/chapter10.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter11" href="content/chapter11.html" media-type="application/xhtml+xml"/>  
+    <item id="chapter12" href="content/chapter12.html" media-type="application/xhtml+xml"/>   
+    <item id="preface13" href="content/preface13.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter13" href="content/chapter13.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter14" href="content/chapter14.html" media-type="application/xhtml+xml"/>    
+    <item id="preface15" href="content/preface15.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter15" href="content/chapter15.html" media-type="application/xhtml+xml"/>    
+    <item id="chapter16" href="content/chapter16.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter17" href="content/chapter17.html" media-type="application/xhtml+xml"/>   
+    <item id="chapter18" href="content/chapter18.html" media-type="application/xhtml+xml"/>       
+    <item id="theend" href="content/theend.html" media-type="application/xhtml+xml"/>   
+    <item id="indexjs" href="content_js/index.js" media-type="text/javascript"/>
+    <item id="intropagejs" href="content_js/intropage.js" media-type="text/javascript"/>    
+    <item id="intropagejs2" href="content_js/intropage2.js" media-type="text/javascript"/>  
+    <item id="chapter1js" href="content_js/chapter1.js" media-type="text/javascript"/>    
+    <item id="preface2js" href="content_js/preface2.js" media-type="text/javascript"/>   
+    <item id="chapter2js" href="content_js/chapter2.js" media-type="text/javascript"/>   
+    <item id="preface3js" href="content_js/preface3.js" media-type="text/javascript"/>   
+    <item id="chapter3js" href="content_js/chapter3.js" media-type="text/javascript"/>    
+    <item id="chapter4js" href="content_js/chapter4.js" media-type="text/javascript"/>    
+    <item id="chapter5js" href="content_js/chapter5.js" media-type="text/javascript"/>    
+    <item id="chapter6js" href="content_js/chapter6.js" media-type="text/javascript"/>    
+    <item id="chapter7js" href="content_js/chapter7.js" media-type="text/javascript"/>    
+    <item id="chapter8js" href="content_js/chapter8.js" media-type="text/javascript"/>    
+    <item id="chapter9js" href="content_js/chapter9.js" media-type="text/javascript"/> 
+    <item id="preface10js" href="content_js/preface10.js" media-type="text/javascript"/>   
+    <item id="chapter10js" href="content_js/chapter10.js" media-type="text/javascript"/>    
+    <item id="chapter11js" href="content_js/chapter11.js" media-type="text/javascript"/>  
+    <item id="chapter12js" href="content_js/chapter12.js" media-type="text/javascript"/>   
+    <item id="preface13js" href="content_js/preface13.js" media-type="text/javascript"/>   
+    <item id="chapter13js" href="content_js/chapter13.js" media-type="text/javascript"/>    
+    <item id="chapter14js" href="content_js/chapter14.js" media-type="text/javascript"/>    
+    <item id="preface15js" href="content_js/preface15.js" media-type="text/javascript"/>   
+    <item id="chapter15js" href="content_js/chapter15.js" media-type="text/javascript"/>    
+    <item id="chapter16js" href="content_js/chapter16.js" media-type="text/javascript"/>      
+    <item id="chapter17js" href="content_js/chapter17.js" media-type="text/javascript"/>    
+    <item id="chapter18js" href="content_js/chapter18.js" media-type="text/javascript"/>  
+    <item id="endjs" href="content_js/theend.js" media-type="text/javascript"/>      
+    <item id="css" href="css/style.css" media-type="text/css"/>
+    <item id="script" href="js/first_draft.js" media-type="text/javascript"/>
+    <item id="script3" href="js/jquery-1.6.2.min.js" media-type="text/javascript"/>
+    <item id="script4" href="js/jquery.mobile-1.0a3.js" media-type="text/javascript"/>
+    <item id="script5" href="js/dragScrollable.js" media-type="text/javascript"/>
+    <item id="scriptdata" href="story.js" media-type="text/javascript" />
+    <item id="image1" href="images/scroll.png" media-type="image/png"/>
+    <item id="image2" href="images/flower.png" media-type="image/png"/>
+    <item id="image3" href="images/hand-left.png" media-type="image/png"/>
+    <item id="image4" href="images/bullet.png" media-type="image/png"/>
+    <item id="image5" href="images/border-bar.png" media-type="image/png"/>
+    <item id="image6" href="images/bg-henri.jpg" media-type="image/jpeg"/>
+    <item id="image7" href="images/hand-right.png" media-type="image/png"/>
+    <item id="image8" href="images/bg-juliette.jpg" media-type="image/jpeg"/>
+    <item id="image9" href="images/cover.jpg" media-type="image/jpg"/>
+    <item id="image11" href="images/title-plate.jpg" media-type="image/jpeg"/>
+    <item id="image12" href="images/curled-juliette-paper.png" media-type="image/png"/>
+    <item id="image12a" href="images/curled-henri-paper.png" media-type="image/png"/>
+    <item id="image12b" href="images/curled-alise-paper.png" media-type="image/png"/>
+    <item id="image13" href="images/sugar-paper-blue.jpg" media-type="image/jpeg"/>    
+    <item id="image14" href="images/sugar-paper-beige.jpg" media-type="image/jpeg"/>    
+    <item id="image15" href="images/sugar-paper-brown.jpg" media-type="image/jpeg"/>
+    <item id="image16" href="images/popup-multiple-first.png" media-type="image/png"/>
+    <item id="image17" href="images/popup-multiple-last.png" media-type="image/png"/>
+    <item id="image18" href="images/popup-single.png" media-type="image/png"/>
+    <item id="image19" href="images/popup-multiple-mid.png" media-type="image/png"/>
+    <item id="image20" href="images/next-button-active.png" media-type="image/png"/>
+    <item id="image21" href="images/next-button.png" media-type="image/png"/>
+    <item id="image22" href="images/prev-button-active.png" media-type="image/png"/>
+    <item id="image23" href="images/prev-button.png" media-type="image/png"/>
+    <item id="image24" href="images/send-letter.png" media-type="image/png"/>
+    <item id="image25" href="images/bg-alise.jpg" media-type="image/jpeg"/>
+    <item id="image26" href="images/bg-juliette-tuck.jpg" media-type="image/jpeg"/>
+    <item id="image27" href="images/bg-henri-tuck.jpg" media-type="image/jpeg"/>
+    <item id="image28" href="images/bg-alise-tuck.jpg" media-type="image/jpeg"/>
+    <item id="image29" href="images/bg-mother-tucker.jpg" media-type="image/jpeg"/>
+    <item id="image30" href="images/bg-mother.jpg" media-type="image/jpeg"/>
+    <item id="cover-image" href="images/book-cover.jpg" media-type="image/jpeg"/>
+    <item id="image32" href="images/inkle-logo.png" media-type="image/png"/>
+    <item id="image33" href="images/title-image.png" media-type="image/png"/>
+    <item id="font1" href="fonts/FePIit27C.otf" media-type="font/opentype" />
+    <item id="font2" href="fonts/FePIrm27C.otf" media-type="font/opentype" />
+    <item id="font3" href="fonts/fepiit27c-webfont.eot" media-type="font/eot" />
+    <item id="font4" href="fonts/fepiit27c-webfont.svg" media-type="font/svg" />
+    <item id="font5" href="fonts/fepiit27c-webfont.woff" media-type="font/woff" />
+    <item id="font6" href="fonts/fepiit27c-webfont.ttf" media-type="font/truetype" />
+    <item id="font7" href="fonts/fepirm27c-webfont.eot" media-type="font/eot" />
+    <item id="font8" href="fonts/fepirm27c-webfont.svg" media-type="font/svg" />
+    <item id="font9" href="fonts/fepirm27c-webfont.ttf" media-type="font/truetype" />
+    <item id="font10" href="fonts/fepirm27c-webfont.woff" media-type="font/woff" />
+    <item id="font11" href="fonts/17283C_0.eot" media-type="font/eot" />
+    <item id="font12" href="fonts/17283C_0.ttf" media-type="font/truetype" />
+    <item id="font13" href="fonts/17283C_0.woff" media-type="font/woff" />
+    <item id="font14" href="fonts/17283C_1.eot" media-type="font/eot" />
+    <item id="font15" href="fonts/17283C_1.ttf" media-type="font/truetype" />
+    <item id="font16" href="fonts/17283C_1.woff" media-type="font/woff" />
+    <item id="font17" href="fonts/17283C_2.eot" media-type="font/eot" />
+    <item id="font18" href="fonts/17283C_2.ttf" media-type="font/truetype" />
+    <item id="font19" href="fonts/17283C_2.woff" media-type="font/woff" />
+    <item id="font20" href="fonts/wyld.ttf" media-type="font/truetype" />
+    <item id="font21" href="fonts/wyldi.ttf" media-type="font/truetype" />
+    <item id="manifest" href="story.manifest" media-type="text/cache-manifest" />
+  </manifest>
+  <spine toc="ncxtoc">
+        <itemref idref="index" linear="yes"/>
+        <itemref idref="intropage" linear="yes"/>
+        <itemref idref="intropage2" linear="yes"/>
+        <itemref idref="chapter1" linear="yes"/>
+        <itemref idref="preface2" linear="yes"/>
+        <itemref idref="chapter2" linear="yes"/>
+        <itemref idref="preface3" linear="yes"/>
+        <itemref idref="chapter3" linear="yes"/>
+        <itemref idref="chapter4" linear="yes"/>
+        <itemref idref="chapter5" linear="yes"/>
+        <itemref idref="chapter6" linear="yes"/>
+        <itemref idref="chapter7" linear="yes"/>
+        <itemref idref="chapter8" linear="yes"/>
+        <itemref idref="chapter9" linear="yes"/>
+        <itemref idref="preface10" linear="yes"/>
+        <itemref idref="chapter10" linear="yes"/>
+        <itemref idref="chapter11" linear="yes"/>
+        <itemref idref="chapter12" linear="yes"/>
+        <itemref idref="preface13" linear="yes"/>
+        <itemref idref="chapter13" linear="yes"/>
+        <itemref idref="chapter14" linear="yes"/>
+        <itemref idref="preface15" linear="yes"/>        
+        <itemref idref="chapter15" linear="yes"/>
+        <itemref idref="chapter16" linear="yes"/>  
+        <itemref idref="chapter17" linear="yes"/>
+        <itemref idref="chapter18" linear="yes"/>  
+        <itemref idref="theend" linear="yes"/>  
+  </spine> 
+  <guide>
+    <!--reference type="cover" title="Cover" href="cover.html"/-->
+    <reference type="title-page" title="Beginning" href="content/index.html"/>
+    <!--reference type="toc" title="Cover" href="toc.ncx"/-->
+  </guide>
+</package>
+    
