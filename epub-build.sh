@@ -17,4 +17,4 @@ rm $FULLBOOKNAME
 zip -X $FULLBOOKNAME mimetype
 zip -rg $FULLBOOKNAME META-INF -x \*.DS_Store
 zip -rg $FULLBOOKNAME OEBPS -x \*.DS_Store
-java -jar epubcheck-3.0b3.jar $FULLBOOKNAME
+#java -jar epubcheck-3.0b3.jar $FULLBOOKNAME
