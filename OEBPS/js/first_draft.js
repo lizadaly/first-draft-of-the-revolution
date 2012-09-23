@@ -1,10 +1,10 @@
 
     // controls use of localStorage, amongst other things
-    var webVersion = true;
+    var webVersion = true; // IMPORTANT: set this to false to run inside iBooks
     var debugUnlockEverything = false;
 
     // this is the key name for the local storage variable
-    var storageId = "FirstDraftOfTheRevolution_v33";
+    var storageId = "FirstDraftOfTheRevolution_v34";
 
     //---------------------------------------------------------------------------
     //      Page sequence
@@ -695,7 +695,6 @@
             // we're removing this line (or the replacement failed, natch)
             if (!deleteOkay)
             {
-                console.log("Null line replacement: " + tagName + ".");
                 return;
             }
             
