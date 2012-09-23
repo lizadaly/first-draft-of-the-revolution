@@ -1,49 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" unique-identifier="bookid">
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" version="3.0" unique-identifier="bookid">
 <!-- 
-Time-stamp: <2011-02-13-14:28:54-liza>
+Time-stamp: <2012-09-23 16:17:30 liza>
 -->
   <metadata>
     <dc:identifier id="bookid">urn:uuid:4c191974-c491-4ad0-aa53-62ec5fed9v143</dc:identifier>
-    <dc:title>First Draft of the Revolution</dc:title> 
-    <dc:rights>Copyright 2011 Threepress Consulting Inc.</dc:rights>
-    <dc:publisher>Threepress Consulting Inc.</dc:publisher>  
-    <dc:date >2011-04-12</dc:date>
+
+    <dc:title id="title">First Draft of the Revolution</dc:title> 
+    <meta refines="#title" property="title-type">main</meta>
+
+    <dc:rights>Copyright 2012 Liza Daly</dc:rights>
+    <dc:publisher>Liza Daly.</dc:publisher>  
+    <dc:date >2012-09-23</dc:date>
     <dc:description>An interactive epistolary story</dc:description>
-    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Short, Emily">Emily Short</dc:creator>
-    <dc:contributor xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Daly, Liza">Liza Daly, inkle</dc:contributor>
+
+    <dc:creator id="creator">Emily Short</dc:creator>
+    <meta refines="#creator" property="file-as">Short, Emily</meta>
+
+    <dc:contributor id="contrib1" >Liza Daly</dc:contributor>
+    <meta refines="#contrib1" property="role" scheme="marc:relators">mrk</meta>
+    <meta refines="#contrib1" property="file-as">Daly, Liza</meta>
+
+    <dc:rights>Creative Commons Attribution (CC BY 3.0) license</dc:rights>
     <dc:language>en</dc:language>
+
+    <dc:subject>Fiction</dc:subject>
+
+    <meta property="dcterms:modified">2012-09-23T12:00:00Z</meta>
+
     <meta name="cover" content="cover-image"/> 
    </metadata>  
   <manifest>
-    <item id="ncxtoc" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
-    <item id="index" href="content/index.html" media-type="application/xhtml+xml"/>
-    <item id="intropage" href="content/intropage.html" media-type="application/xhtml+xml"/>
-    <item id="intropage2" href="content/intropage2.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter1" href="content/chapter1.html" media-type="application/xhtml+xml"/>    
-    <item id="preface2" href="content/preface2.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter2" href="content/chapter2.html" media-type="application/xhtml+xml"/>   
-    <item id="preface3" href="content/preface3.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter3" href="content/chapter3.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter4" href="content/chapter4.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter5" href="content/chapter5.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter6" href="content/chapter6.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter7" href="content/chapter7.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter8" href="content/chapter8.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter9" href="content/chapter9.html" media-type="application/xhtml+xml"/> 
-    <item id="preface10" href="content/preface10.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter10" href="content/chapter10.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter11" href="content/chapter11.html" media-type="application/xhtml+xml"/>  
-    <item id="chapter12" href="content/chapter12.html" media-type="application/xhtml+xml"/>   
-    <item id="preface13" href="content/preface13.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter13" href="content/chapter13.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter14" href="content/chapter14.html" media-type="application/xhtml+xml"/>    
-    <item id="preface15" href="content/preface15.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter15" href="content/chapter15.html" media-type="application/xhtml+xml"/>    
-    <item id="chapter16" href="content/chapter16.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter17" href="content/chapter17.html" media-type="application/xhtml+xml"/>   
-    <item id="chapter18" href="content/chapter18.html" media-type="application/xhtml+xml"/>       
-    <item id="theend" href="content/theend.html" media-type="application/xhtml+xml"/>   
+    <item properties="scripted" id="index" href="content/index.html" media-type="application/xhtml+xml"/>
+    <item id="intropage" href="content/intropage.html" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="intropage2" href="content/intropage2.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter1" href="content/chapter1.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="preface2" href="content/preface2.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter2" href="content/chapter2.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="preface3" href="content/preface3.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter3" href="content/chapter3.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter4" href="content/chapter4.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter5" href="content/chapter5.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter6" href="content/chapter6.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter7" href="content/chapter7.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter8" href="content/chapter8.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter9" href="content/chapter9.html" properties="scripted" media-type="application/xhtml+xml"/> 
+    <item id="preface10" href="content/preface10.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter10" href="content/chapter10.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter11" href="content/chapter11.html" properties="scripted" media-type="application/xhtml+xml"/>  
+    <item id="chapter12" href="content/chapter12.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="preface13" href="content/preface13.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter13" href="content/chapter13.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter14" href="content/chapter14.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="preface15" href="content/preface15.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter15" href="content/chapter15.html" properties="scripted" media-type="application/xhtml+xml"/>    
+    <item id="chapter16" href="content/chapter16.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter17" href="content/chapter17.html" properties="scripted" media-type="application/xhtml+xml"/>   
+    <item id="chapter18" href="content/chapter18.html" properties="scripted" media-type="application/xhtml+xml"/>       
+    <item id="theend" href="content/theend.html" properties="scripted" media-type="application/xhtml+xml"/>   
     <item id="indexjs" href="content_js/index.js" media-type="text/javascript"/>
     <item id="intropagejs" href="content_js/intropage.js" media-type="text/javascript"/>    
     <item id="intropagejs2" href="content_js/intropage2.js" media-type="text/javascript"/>  
@@ -108,11 +122,11 @@ Time-stamp: <2011-02-13-14:28:54-liza>
     <item id="image28" href="images/bg-alise-tuck.jpg" media-type="image/jpeg"/>
     <item id="image29" href="images/bg-mother-tucker.jpg" media-type="image/jpeg"/>
     <item id="image30" href="images/bg-mother.jpg" media-type="image/jpeg"/>
-    <item id="cover-image" href="images/book-cover.jpg" media-type="image/jpeg"/>
+    <item properties="cover-image" id="cover-image" href="images/book-cover.jpg" media-type="image/jpeg"/>
     <item id="image32" href="images/inkle-logo.png" media-type="image/png"/>
     <item id="image33" href="images/title-image.png" media-type="image/png"/>
-    <item id="font1" href="fonts/FePIit27C.otf" media-type="font/opentype" />
-    <item id="font2" href="fonts/FePIrm27C.otf" media-type="font/opentype" />
+    <item id="font1" href="fonts/FePIit27C.otf" media-type="application/vnd.ms-opentype" />
+    <item id="font2" href="fonts/FePIrm27C.otf" media-type="application/vnd.ms-opentype" />
     <item id="font3" href="fonts/fepiit27c-webfont.eot" media-type="font/eot" />
     <item id="font4" href="fonts/fepiit27c-webfont.svg" media-type="font/svg" />
     <item id="font5" href="fonts/fepiit27c-webfont.woff" media-type="font/woff" />
@@ -133,8 +147,9 @@ Time-stamp: <2011-02-13-14:28:54-liza>
     <item id="font20" href="fonts/wyld.ttf" media-type="font/truetype" />
     <item id="font21" href="fonts/wyldi.ttf" media-type="font/truetype" />
     <item id="manifest" href="story.manifest" media-type="text/cache-manifest" />
+    <item properties="nav" id="end" href="toc.html" media-type="application/xhtml+xml" />
   </manifest>
-  <spine toc="ncxtoc">
+  <spine>
         <itemref idref="index" linear="yes"/>
         <itemref idref="intropage" linear="yes"/>
         <itemref idref="intropage2" linear="yes"/>
@@ -164,9 +179,7 @@ Time-stamp: <2011-02-13-14:28:54-liza>
         <itemref idref="theend" linear="yes"/>  
   </spine> 
   <guide>
-    <!--reference type="cover" title="Cover" href="cover.html"/-->
     <reference type="title-page" title="Beginning" href="content/index.html"/>
-    <!--reference type="toc" title="Cover" href="toc.ncx"/-->
   </guide>
 </package>
     
